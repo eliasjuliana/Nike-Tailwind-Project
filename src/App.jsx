@@ -14,15 +14,17 @@ import Nav from "./components/Nav";
 const App = () => (
   <main className="relative">
     <Nav/>
-    <section className="xl:padding-l wide:padding-r padding-b"><Hero/></section>
-    <section className="padding"><PopularProducts/></section>
-    <section className="padding"><SuperQuality/></section>
-    <section className="padding-x py-10"><Services/></section>
-    <section className="padding"><SpecialOffers/></section>
-    <section className="bg-pale-blue padding"><CustomerReviews/></section>
-    <section className="padding-x sm:py-32 py-16 w-full"><Subscribe/></section>
-    <section className="bg-black padding-x padding-t pb-8"><Footer/></section>
+    <section className="xl:padding-l wide:padding-r padding-b dark:bg-neutral-900  dark:text-white-400"><Hero/></section>
+    <section className="padding dark:bg-neutral-900 dark:text-white-400"><PopularProducts/></section>
+    <section className="padding dark:bg-neutral-900 dark:text-white-400"><SuperQuality/></section>
+    <section className="padding-x py-10 dark:bg-neutral-900 dark:text-white-400"><Services/></section>
+    <section className="padding dark:bg-neutral-900 dark:text-white-400"><SpecialOffers/></section>
+    <section className="bg-pale-blue padding dark:bg-neutral-900 dark:text-white-400"><CustomerReviews/></section>
+    <section className="padding-x sm:py-32 py-16 w-full dark:bg-neutral-900 dark:text-white-400"><Subscribe/></section>
+    <section className="bg-black padding-x padding-t pb-8 dark:bg-neutral-900 dark:text-white-400"><Footer/></section>
   </main>
+
+  
 );
 
 export default App;

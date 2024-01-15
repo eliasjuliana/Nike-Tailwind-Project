@@ -3,7 +3,7 @@ import { footerLinks, socialMedia } from "../constants"
 
 const Footer = () => {
   return (
-    <section className="max-container bg-black">
+    <section className="max-container bg-neutral-900">
       <div className="flex justify-between items-start gap-20 flex-wrap max-lg:flex-col">
         <div className="flex flex-col items-start">
           <a href="/">
@@ -31,7 +31,7 @@ const Footer = () => {
                   <h4 className="text-white font-montserrat text-2xl leading-normal font-medium mb-6">{section.title}</h4>
                   <ul>
                     {section.links.map((link)=>(
-                      <li key={link} className="mt-3 text-white-400 font-montserrat text-base leading-normal hover:text-slate-gray">
+                      <li key={link} className="mt-3 text-white-400 font-montserrat text-base leading-normal hover:text-coral-red">
                         <a>{link.name}</a>
                       </li>
                     ))}
