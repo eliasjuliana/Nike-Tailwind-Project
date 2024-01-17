@@ -1,5 +1,5 @@
 import { facebook, instagram, shieldTick, support, truckFast, twitter } from "../assets/icons";
-import { bigShoe1, bigShoe2, bigShoe3, customer1, customer2, shoe4, shoe5, shoe6, shoe7, thumbnailShoe1, thumbnailShoe2, thumbnailShoe3 } from "../assets/images";
+import { bigShoe1, bigShoe2, bigShoe7, customer1, customer2, shoe4, shoe5, shoe6, shoe13, shoe1, shoe2, shoe9, thumbnailShoe1, thumbnailShoe2, thumbnailShoe5 } from "../assets/images";
 
 export const navLinks = [
     { href: "#home", label: "Home" },
@@ -18,8 +18,8 @@ export const shoes = [
         bigShoe: bigShoe2,
     },
     {
-        thumbnail: thumbnailShoe3,
-        bigShoe: bigShoe3,
+        thumbnail: thumbnailShoe5,
+        bigShoe: bigShoe7,
     },
 ];
 
@@ -31,24 +31,39 @@ export const statistics = [
 
 export const products = [
     {
-        imgURL: shoe4,
-        name: "Nike Air Jordan-01",
+        imgURL: shoe1,
+        name: "Air Jordan 1 Retro",
         price: "$200.20",
     },
     {
         imgURL: shoe5,
-        name: "Nike Air Jordan-10",
-        price: "$210.20",
+        name: "Air Alphafly",
+        price: "$110.20",
     },
     {
-        imgURL: shoe6,
-        name: "Nike Air Jordan-100",
+        imgURL: shoe9,
+        name: "Jordan 1 Mid",
         price: "$220.20",
     },
     {
-        imgURL: shoe7,
-        name: "Nike Air Jordan-001",
-        price: "$230.20",
+        imgURL: shoe6,
+        name: "Internationalist",
+        price: "$120.00",
+    },
+    {
+        imgURL: shoe4,
+        name: "Revolution 6",
+        price: "$149.90",
+    },
+    {
+        imgURL: shoe2,
+        name: "Air Zoom 4",
+        price: "$180.20",
+    },
+    {
+        imgURL: shoe13,
+        name: "Dunk Low Retro",
+        price: "$200.20",
     },
 ];
 

@@ -16,8 +16,8 @@ const SuperQuality = () => {
             <br/>
             Shoes
         </h2>
-        <p className="mt-4 lg:max-w-lg info-text">Our shoes are crafted with precision and premium materials, ensuring a blend of unparalleled comfort and lasting durability.</p>
-        <p className="mt-6 lg:max-w-lg info-text">Experience the difference with Nike – where superior quality meets unmatched comfort.</p>
+        <p className="mt-4 lg:max-w-lg info-text  dark:text-white-400">Our shoes are crafted with precision and premium materials, ensuring a blend of unparalleled comfort and lasting durability.</p>
+        <p className="mt-6 lg:max-w-lg info-text  dark:text-white-400">Experience the difference with Nike – where superior quality meets unmatched comfort.</p>
         <div className="mt-11">
           <Button label="View details"/>
         </div>
