@@ -17,6 +17,7 @@ import shoe13 from './shoe13.webp'
 import shoe1 from './shoe1.webp'
 import shoe2 from './shoe2.webp'
 import shoe9 from './shoe9.webp'
+import shoe8 from './shoe8.svg'
 
 
 import thumbnailBackground from './thumbnail-background.svg'
@@ -44,6 +45,7 @@ export {
     shoe1,
     shoe2,
     shoe9,
+    shoe8,
 
     thumbnailBackground,
     thumbnailShoe1,
