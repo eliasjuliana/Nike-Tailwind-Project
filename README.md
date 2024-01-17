@@ -4,7 +4,7 @@ This project is a website inspired by Nike, built with React.js, and styled usin
 
 The original design is credited to @adrianhajdin, with several modifications. I introduced a dark mode, implemented a slider for the products section, added animations, and made adjustments to the images.
 
-Explore the deployed website and feel free to provide suggestions for improvement: Nike Clone.
+Explore the deployed website and feel free to provide suggestions for improvement: https://nike-clone-eliasj.netlify.app/
 
 Thanks for visiting this repository! 😊
 
